@@ -1,10 +1,23 @@
 {
   "expo": {
-    "name": "mobile-app",
-    "slug": "mobile-app",
-    "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
+    "name": "IP Query",
+    "slug": "ip-query",
+    "version": "0.0.1",
+    "icon": "./assets/appIcon.png",
+    "assetBundlePatterns": ["**/*"],
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#2b354f"
+    },
+    "ios": {
+      "bundleIdentifier": "com.byrespect.ipquery",
+      "supportsTablet": false,
+      "buildNumber": "0.0.1"
+    },
+    "android": {
+      "package": "com.byrespect.ipquery",
+      "backgroundColor": "#2b354f",
+      "versionCode": 1
+    }
   }
 }
